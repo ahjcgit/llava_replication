@@ -1,0 +1,52 @@
+ 000000001803.jpg
+GT objects: ['bowl', 'sink', 'toilet']
+Caption   : USER:  
+Describe the image precisely and only mention objects that are clearly visible. ASSISTANT: The image depicts a bathroom with a blue tiled floor and a white sink. There are two sinks in the bathroom, one located towards the left side and the other towards the right side. Above the sinks, there are two mirrors, one on the left side and the other on
+
+ 000000000821.jpg
+GT objects: ['car', 'clock', 'parking meter', 'person']
+Caption   : USER:  
+Describe the image precisely and only mention objects that are clearly visible. ASSISTANT: The image features two men standing next to a parked car, possibly a vintage car, in front of a church. One of the men is holding a gas pump, while the other man is holding a hose. They seem to be working on the car or preparing it for a trip.
+
+ 000000001244.jpg
+GT objects: ['boat', 'chair', 'person', 'suitcase', 'umbrella']
+Caption   : USER:  
+Describe the image precisely and only mention objects that are clearly visible. ASSISTANT: The image features a man sitting on a chair near a body of water, possibly a lake or a harbor. He is holding an umbrella, possibly to shield himself from the sun or rain. The man is positioned close to the water, enjoying the view and the surroundings.
+
+In
+
+ 000000000564.jpg
+GT objects: ['chair', 'person', 'tennis racket']
+Caption   : USER:  
+Describe the image precisely and only mention objects that are clearly visible. ASSISTANT: The image captures a tennis match in progress, with a man in a white shirt and white shorts playing tennis on a court. He is holding a tennis racket and appears to be running or preparing to hit the ball. 
+
+The scene is set in a stadium, with numerous red ch
+
+ 000000001505.jpg
+GT objects: ['clock']
+Caption   : USER:  
+Describe the image precisely and only mention objects that are clearly visible. ASSISTANT: The image features a large clock tower with a green roof, situated on top of a building. The clock is prominently displayed on the tower, making it a focal point of the scene. The tower is adorned with intricate carvings, adding to its architectural charm. The sky in the
+
+000000001803.jpg
+GT objects: ['bowl', 'sink', 'toilet']
+Caption   : The image depicts a bathroom with a blue tiled floor and a white sink. There are two sinks in the bathroom, one located towards the left side and the other towards the right side. Above the sinks, there are two mirrors, one on the left side and the other on
+
+ 000000000821.jpg
+GT objects: ['car', 'clock', 'parking meter', 'person']
+Caption   : The image features two men standing next to a parked car, possibly a vintage car, in front of a church. One of the men is holding a gas pump, while the other man is holding a hose. They seem to be working on the car or preparing it for a trip.
+
+ 000000001244.jpg
+GT objects: ['boat', 'chair', 'person', 'suitcase', 'umbrella']
+Caption   : The image features a man sitting on a chair near a body of water, possibly a lake or a harbor. He is holding an umbrella, possibly to shield himself from the sun or rain. The man is positioned close to the water, enjoying the view and the surroundings.
+
+In
+
+ 000000000564.jpg
+GT objects: ['chair', 'person', 'tennis racket']
+Caption   : The image captures a tennis match in progress, with a man in a white shirt and white shorts playing tennis on a court. He is holding a tennis racket and appears to be running or preparing to hit the ball. 
+
+The scene is set in a stadium, with numerous red ch
+
+ 000000001505.jpg
+GT objects: ['clock']
+Caption   : The image features a large clock tower with a green roof, situated on top of a building. The clock is prominently displayed on the tower, making it a focal point of the scene. The tower is adorned with intricate carvings, adding to its architectural charm. The sky in the

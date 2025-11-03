@@ -1,0 +1,89 @@
+Running split: random
+                                                                                                                       
+
+Running split: popular
+                                                                                                                       
+
+Running split: adversarial
+                                                                                                                       
+
+Running split: Overall
+                                                                                                                       
+
+POPE (COCO) results:
+- Random      : {'Accuracy': 87.77, 'Precision': 91.62, 'Recall': 83.13, 'F1': 87.17}
+- Popular     : {'Accuracy': 83.97, 'Precision': 85.36, 'Recall': 82.0, 'F1': 83.65}
+- Adversarial : {'Accuracy': 81.1, 'Precision': 80.08, 'Recall': 82.8, 'F1': 81.42}
+- Overall     : {'Accuracy': 84.66, 'Precision': 86.02, 'Recall': 82.76, 'F1': 84.36}
+
+Total time: 9605.9s for 9000 items
+
+--- Hybrid VCD + ASD Results ---
+{'Accuracy': 84.66, 'Precision': 86.02, 'Recall': 82.76, 'F1': 84.36}
+
+----------------------
+
+Found 32 decoder layers.
+Calib samples: 300
+steer_v shape: (4096,) built in 47.2s
+
+POPE (COCO) results with ASD + VCD:
+- Random     : {'Accuracy': 89.2, 'Precision': 87.84, 'Recall': 91.0, 'F1': 89.39}
+- Popular    : {'Accuracy': 85.17, 'Precision': 81.49, 'Recall': 91.0, 'F1': 85.98}
+- Adversarial: {'Accuracy': 78.9, 'Precision': 73.27, 'Recall': 91.0, 'F1': 81.18}
+- Overall     : {'Accuracy': 84.42, 'Precision': 80.42, 'Recall': 91.00, 'F1': 85.38}
+
+Total time: 8326.3s
+
+--------------------
+
+gamma = 0, pos = 0.1, neg = 0.35, alpha = 4.0
+Running smoke test (v2, Corrected Logic) on 300 samples...
+
+--- Smoke Test Results (v2, Corrected Logic, gamma=0.6) ---
+Overall (300 samples): {'acc': 86.67, 'precision': 88.73, 'recall': 84.0, 'f1': 86.3}
+
+Total time: 112.4s
+
+-------------------
+
+gamma = 0, pos = 0.3, neg = 0.35, alpha = 4.0
+Running smoke test (v2, Corrected Logic) on 300 samples...
+
+--- Smoke Test Results (v2, Corrected Logic) ---
+Overall (300 samples): {'acc': 84.0, 'precision': 90.48, 'recall': 76.0, 'f1': 82.61}
+
+Total time: 105.0s
+
+-------------------
+
+Running smoke test (v2, Corrected Logic) on 300 samples...
+
+--- Smoke Test Results (v2, Corrected Logic) ---
+Overall (300 samples): {'acc': 84.0, 'precision': 90.48, 'recall': 76.0, 'f1': 82.61}
+
+Total time: 104.5s
+
+--------------------
+Preparing POPE rows...
+Starting full POPE eval with ASD+VCD on 9000 items...
+
+Running split: random
+                                                                                                                       
+random => {'Accuracy': 88.87, 'Precision': 95.69, 'Recall': 81.4, 'F1': 87.97}
+
+Running split: popular
+                                                                                                                       
+popular => {'Accuracy': 86.83, 'Precision': 91.32, 'Recall': 81.4, 'F1': 86.08}
+
+Running split: adversarial
+                                                                                                                       
+adversarial => {'Accuracy': 83.8, 'Precision': 85.5, 'Recall': 81.4, 'F1': 83.4}
+                                                                                                                       
+
+=== ASD + VCD (Fixed) | FULL 3000 RESULTS ===
+      Random: {'Accuracy': 88.87, 'Precision': 95.69, 'Recall': 81.4, 'F1': 87.97}
+     Popular: {'Accuracy': 86.83, 'Precision': 91.32, 'Recall': 81.4, 'F1': 86.08}
+ Adversarial: {'Accuracy': 83.8, 'Precision': 85.5, 'Recall': 81.4, 'F1': 83.4}
+     Overall: {'Accuracy': 86.5, 'Precision': 90.65, 'Recall': 81.4, 'F1': 85.77}
+Total time: 4360.8s

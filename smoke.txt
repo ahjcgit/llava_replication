@@ -1,0 +1,23 @@
+Running smoke test (v2, Corrected Logic) on 300 samples...
+                                                                                                                       
+
+--- Smoke Test Results (v2, Corrected Logic) ---
+Overall (300 samples): {'Accuracy': 84.33, 'Precision': 89.31, 'Recall': 78.0, 'F1': 83.27}
+
+Total time: 74.9s
+
+Running smoke test (v2, Corrected Logic) on 300 samples...
+                                                                                                                       
+
+--- Smoke Test Results (v2, Corrected Logic) ---
+Overall (300 samples): {'Accuracy': 84.33, 'Precision': 89.31, 'Recall': 78.0, 'F1': 83.27}
+
+Total time: 73.2s
+
+Running smoke test (v2, Corrected Logic) on 300 samples...
+                                                                                                                       
+
+--- Smoke Test Results (v2, Corrected Logic) ---
+Overall (300 samples): {'Accuracy': 84.33, 'Precision': 89.31, 'Recall': 78.0, 'F1': 83.27}
+
+Total time: 73.5s

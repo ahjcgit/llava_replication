@@ -1,0 +1,379 @@
+POPE (COCO) results: - Random : {'Accuracy': 88.83, 'Precision': 96.05, 'Recall': 81.0, 'F1': 87.88}
+- Popular : {'Accuracy': 86.93, 'Precision': 91.91, 'Recall': 81.0, 'F1': 86.11} 
+- Adversarial : {'Accuracy': 84.03, 'Precision': 86.23, 'Recall': 81.0, 'F1': 83.53} 
+- Overall : {'Accuracy': 86.6, 'Precision': 91.22, 'Recall': 81.0, 'F1': 85.81} 
+Total time: 2880.4s for 9000 items
+
+POPE (COCO) results:
+- Random      : {'Accuracy': 88.83, 'Precision': 96.05, 'Recall': 81.0, 'F1': 87.88}
+- Popular     : {'Accuracy': 86.93, 'Precision': 91.91, 'Recall': 81.0, 'F1': 86.11}
+- Adversarial : {'Accuracy': 84.03, 'Precision': 86.23, 'Recall': 81.0, 'F1': 83.53}
+- Overall     : {'Accuracy': 86.6, 'Precision': 91.22, 'Recall': 81.0, 'F1': 85.81}
+
+Total time: 2889.7s for 9000 items
+
+--------------------------------
+
+== Baseline (no steering) ==
+
+Running split: random
+                                                                                                                       
+
+Running split: popular
+                                                                                                                       
+
+Running split: adversarial
+                                                                                                                       
+
+POPE (COCO) results:
+- Random      : {'Accuracy': 88.83, 'Precision': 96.05, 'Recall': 81.0, 'F1': 87.88}
+- Popular     : {'Accuracy': 86.93, 'Precision': 91.91, 'Recall': 81.0, 'F1': 86.11}
+- Adversarial : {'Accuracy': 84.03, 'Precision': 86.23, 'Recall': 81.0, 'F1': 83.53}
+- Overall     : {'Accuracy': 86.6, 'Precision': 91.22, 'Recall': 81.0, 'F1': 85.81}
+
+Total time: 2838.0s for 9000 items
+
+== Steered (alpha=0.25) ==
+
+Running split: random
+                                                                                                                       
+
+Running split: popular
+                                                                                                                       
+
+Running split: adversarial
+                                                                                                                       
+
+POPE (COCO) results:
+- Random      : {'Accuracy': 88.9, 'Precision': 95.84, 'Recall': 81.33, 'F1': 87.99}
+- Popular     : {'Accuracy': 86.97, 'Precision': 91.66, 'Recall': 81.33, 'F1': 86.19}
+- Adversarial : {'Accuracy': 84.0, 'Precision': 85.92, 'Recall': 81.33, 'F1': 83.56}
+- Overall     : {'Accuracy': 86.62, 'Precision': 90.95, 'Recall': 81.33, 'F1': 85.88}
+
+Total time: 2279.9s for 9000 items
+
+== Steered (alpha=0.5) ==
+
+Running split: random
+                                                                                                                       
+
+Running split: popular
+                                                                                                                       
+
+Running split: adversarial
+                                                                                                                       
+
+POPE (COCO) results:
+- Random      : {'Accuracy': 88.9, 'Precision': 95.55, 'Recall': 81.6, 'F1': 88.03}
+- Popular     : {'Accuracy': 87.0, 'Precision': 91.48, 'Recall': 81.6, 'F1': 86.26}
+- Adversarial : {'Accuracy': 83.97, 'Precision': 85.65, 'Recall': 81.6, 'F1': 83.58}
+- Overall     : {'Accuracy': 86.62, 'Precision': 90.71, 'Recall': 81.6, 'F1': 85.91}
+
+Total time: 2245.7s for 9000 items
+
+== Steered (alpha=1.0) ==
+
+Running split: random
+                                                                                                                       
+
+Running split: popular
+                                                                                                                       
+
+Running split: adversarial
+                                                                                                                       
+
+POPE (COCO) results:
+- Random      : {'Accuracy': 89.27, 'Precision': 95.38, 'Recall': 82.53, 'F1': 88.49}
+- Popular     : {'Accuracy': 86.9, 'Precision': 90.43, 'Recall': 82.53, 'F1': 86.3}
+- Adversarial : {'Accuracy': 83.7, 'Precision': 84.51, 'Recall': 82.53, 'F1': 83.51}
+- Overall     : {'Accuracy': 86.62, 'Precision': 89.88, 'Recall': 82.53, 'F1': 86.05}
+
+Total time: 2245.0s for 9000 items
+
+== Steered (alpha=1.5) ==
+
+Running split: random
+                                                                                                                       
+
+Running split: popular
+                                                                                                                       
+
+Running split: adversarial
+                                                                                                                       
+
+POPE (COCO) results:
+- Random      : {'Accuracy': 89.47, 'Precision': 95.05, 'Recall': 83.27, 'F1': 88.77}
+- Popular     : {'Accuracy': 86.73, 'Precision': 89.47, 'Recall': 83.27, 'F1': 86.26}
+- Adversarial : {'Accuracy': 83.17, 'Precision': 83.1, 'Recall': 83.27, 'F1': 83.18}
+- Overall     : {'Accuracy': 86.46, 'Precision': 88.94, 'Recall': 83.27, 'F1': 86.01}
+
+Total time: 2327.1s for 9000 items
+
+== Summary (Overall) ==
+baseline: Acc=86.60  F1=85.81
+alpha=0.25: Acc=86.62  F1=85.88
+alpha= 0.5: Acc=86.62  F1=85.91
+alpha= 1.0: Acc=86.62  F1=86.05
+alpha= 1.5: Acc=86.46  F1=86.01
+
+----------------
+
+
+== Steered (lang-only, alpha=0.5) ==
+
+Running split: random
+                                                                                                                       
+
+Running split: popular
+                                                                                                                       
+
+Running split: adversarial
+                                                                                                                       
+
+POPE (COCO) results:
+- Random      : {'Accuracy': 88.87, 'Precision': 96.27, 'Recall': 80.87, 'F1': 87.9}
+- Popular     : {'Accuracy': 87.03, 'Precision': 92.24, 'Recall': 80.87, 'F1': 86.18}
+- Adversarial : {'Accuracy': 84.23, 'Precision': 86.7, 'Recall': 80.87, 'F1': 83.68}
+- Overall     : {'Accuracy': 86.71, 'Precision': 91.57, 'Recall': 80.87, 'F1': 85.89}
+
+Total time: 2241.0s for 9000 items
+
+== Steered (lang-only, alpha=1.0) ==
+
+Running split: random
+                                                                                                                       
+
+Running split: popular
+                                                                                                                       
+
+Running split: adversarial
+                                                                                                                       
+
+POPE (COCO) results:
+- Random      : {'Accuracy': 88.63, 'Precision': 96.32, 'Recall': 80.33, 'F1': 87.6}
+- Popular     : {'Accuracy': 86.97, 'Precision': 92.62, 'Recall': 80.33, 'F1': 86.04}
+- Adversarial : {'Accuracy': 84.17, 'Precision': 87.0, 'Recall': 80.33, 'F1': 83.54}
+- Overall     : {'Accuracy': 86.59, 'Precision': 91.82, 'Recall': 80.33, 'F1': 85.69}
+
+Total time: 2263.1s for 9000 items
+
+== Steered (lang-only, alpha=1.5) ==
+
+Running split: random
+                                                                                                                       
+
+Running split: popular
+                                                                                                                       
+
+Running split: adversarial
+                                                                                                                       
+
+POPE (COCO) results:
+- Random      : {'Accuracy': 88.4, 'Precision': 96.45, 'Recall': 79.73, 'F1': 87.3}
+- Popular     : {'Accuracy': 86.73, 'Precision': 92.71, 'Recall': 79.73, 'F1': 85.73}
+- Adversarial : {'Accuracy': 84.03, 'Precision': 87.24, 'Recall': 79.73, 'F1': 83.32}
+- Overall     : {'Accuracy': 86.39, 'Precision': 91.98, 'Recall': 79.73, 'F1': 85.42}
+
+Total time: 2287.7s for 9000 items
+
+--------------------
+
+
+Running split (alpha=1.0): random
+                                                                                                                       
+
+Running split (alpha=1.0): popular
+                                                                                                                       
+
+Running split (alpha=1.0): adversarial
+                                                                                                                       
+
+POPE (COCO) mid-layer steered results:
+- Random      : {'Accuracy': 88.9, 'Precision': 96.27, 'Recall': 80.93, 'F1': 87.94}
+- Popular     : {'Accuracy': 87.07, 'Precision': 92.25, 'Recall': 80.93, 'F1': 86.22}
+- Adversarial : {'Accuracy': 84.27, 'Precision': 86.71, 'Recall': 80.93, 'F1': 83.72}
+- Overall     : {'Accuracy': 86.74, 'Precision': 91.58, 'Recall': 80.93, 'F1': 85.93}
+
+Total time: 2735.2s for 9000 items
+
+Overall (mid-layer, alpha = 1.0 ): {'Accuracy': 86.74, 'Precision': 91.58, 'Recall': 80.93, 'F1': 85.93}
+
+--------------------
+Fitted τ ≈ 0.300 on dev (acc 0.872)
+
+Running split [Threshold τ=0.300]: random
+                                                                                                                       
+
+Running split [Threshold τ=0.300]: popular
+                                                                                                                       
+
+Running split [Threshold τ=0.300]: adversarial
+                                                                                                                       
+
+POPE (COCO) Thresholded results:
+- Random      : {'Accuracy': 89.53, 'Precision': 95.27, 'Recall': 83.2, 'F1': 88.83}
+- Popular     : {'Accuracy': 87.0, 'Precision': 90.04, 'Recall': 83.2, 'F1': 86.49}
+- Adversarial : {'Accuracy': 83.4, 'Precision': 83.53, 'Recall': 83.2, 'F1': 83.37}
+- Overall     : {'Accuracy': 86.64, 'Precision': 89.36, 'Recall': 83.2, 'F1': 86.17}
+
+Total time: 2210.1s for 9000 items
+
+Overall (thresholded, τ = 0.300 ): {'Accuracy': 86.64, 'Precision': 89.36, 'Recall': 83.2, 'F1': 86.17}
+Saved: pope_predictions_thresholded_tau0.300.csv
+
+-------------------
+[POPE] Using file for ['coco_pope_random', 'random']: coco_pope_random.json
+[POPE] Using file for ['coco_pope_popular', 'popular']: coco_pope_popular.json
+[POPE] Using file for ['coco_pope_adversarial', 'adversarial']: coco_pope_adversarial.json
+
+alibrating (img vs lang): 100%|█████████████████████████████████████████████████████| 400/400 [01:00<00:00,  6.59it/s]
+
+[ASD] Split: random  (layer=22, λ⁺=0.2, λ⁻=0.4, α=5.0)
+  num=3000  acc=0.8920
+
+[ASD] Split: popular  (layer=22, λ⁺=0.2, λ⁻=0.4, α=5.0)
+  num=3000  acc=0.8690
+
+[ASD] Split: adversarial  (layer=22, λ⁺=0.2, λ⁻=0.4, α=5.0)
+  num=3000  acc=0.8257
+
+[ASD] Overall:
+  num=9000  acc=0.8622
+{'n': 9000, 'acc': 0.8622222222222222}
+
+--------------------
+
+num=2000  acc=0.8645
+[DEV] mode=single    lp=0.15 ln=0.35 a=3.0  acc=0.8645  (470.3s)
+  num=2000  acc=0.8640
+[DEV] mode=ensemble  lp=0.15 ln=0.35 a=3.0  acc=0.8640  (470.4s)
+  num=2000  acc=0.8635
+[DEV] mode=adaptive  lp=0.15 ln=0.35 a=3.0  acc=0.8635  (760.0s)
+  num=2000  acc=0.8610
+[DEV] mode=single    lp=0.15 ln=0.35 a=5.0  acc=0.8610  (470.7s)
+  num=2000  acc=0.8660
+[DEV] mode=ensemble  lp=0.15 ln=0.35 a=5.0  acc=0.8660  (470.5s)
+  num=2000  acc=0.8615
+[DEV] mode=adaptive  lp=0.15 ln=0.35 a=5.0  acc=0.8615  (759.9s)
+  num=2000  acc=0.8655
+[DEV] mode=single    lp=0.15 ln=0.35 a=7.0  acc=0.8655  (469.5s)
+  num=2000  acc=0.8650
+[DEV] mode=ensemble  lp=0.15 ln=0.35 a=7.0  acc=0.8650  (469.7s)
+  num=2000  acc=0.8665
+[DEV] mode=adaptive  lp=0.15 ln=0.35 a=7.0  acc=0.8665  (758.2s)
+  num=2000  acc=0.8635
+[DEV] mode=single    lp=0.15 ln=0.40 a=3.0  acc=0.8635  (469.5s)
+  num=2000  acc=0.8625
+[DEV] mode=ensemble  lp=0.15 ln=0.40 a=3.0  acc=0.8625  (469.6s)
+  num=2000  acc=0.8625
+[DEV] mode=adaptive  lp=0.15 ln=0.40 a=3.0  acc=0.8625  (757.8s)
+  num=2000  acc=0.8605
+[DEV] mode=single    lp=0.15 ln=0.40 a=5.0  acc=0.8605  (469.3s)
+  num=2000  acc=0.8660
+[DEV] mode=ensemble  lp=0.15 ln=0.40 a=5.0  acc=0.8660  (469.6s)
+  num=2000  acc=0.8610
+[DEV] mode=adaptive  lp=0.15 ln=0.40 a=5.0  acc=0.8610  (758.3s)
+  num=2000  acc=0.8655
+[DEV] mode=single    lp=0.15 ln=0.40 a=7.0  acc=0.8655  (469.4s)
+  num=2000  acc=0.8630
+[DEV] mode=ensemble  lp=0.15 ln=0.40 a=7.0  acc=0.8630  (469.6s)
+  num=2000  acc=0.8655
+[DEV] mode=adaptive  lp=0.15 ln=0.40 a=7.0  acc=0.8655  (758.2s)
+  num=2000  acc=0.8630
+[DEV] mode=single    lp=0.15 ln=0.50 a=3.0  acc=0.8630  (472.4s)
+  num=2000  acc=0.8630
+[DEV] mode=ensemble  lp=0.15 ln=0.50 a=3.0  acc=0.8630  (469.6s)
+  num=2000  acc=0.8645
+[DEV] mode=adaptive  lp=0.15 ln=0.50 a=3.0  acc=0.8645  (758.3s)
+  num=2000  acc=0.8600
+[DEV] mode=single    lp=0.15 ln=0.50 a=5.0  acc=0.8600  (469.4s)
+  num=2000  acc=0.8650
+[DEV] mode=ensemble  lp=0.15 ln=0.50 a=5.0  acc=0.8650  (469.6s)
+  num=2000  acc=0.8615
+[DEV] mode=adaptive  lp=0.15 ln=0.50 a=5.0  acc=0.8615  (758.3s)
+  num=2000  acc=0.8645
+[DEV] mode=single    lp=0.15 ln=0.50 a=7.0  acc=0.8645  (470.0s)
+  num=2000  acc=0.8645
+[DEV] mode=ensemble  lp=0.15 ln=0.50 a=7.0  acc=0.8645  (469.8s)
+  num=2000  acc=0.8665
+[DEV] mode=adaptive  lp=0.15 ln=0.50 a=7.0  acc=0.8665  (758.6s)
+  num=2000  acc=0.8655
+[DEV] mode=single    lp=0.20 ln=0.35 a=3.0  acc=0.8655  (469.4s)
+  num=2000  acc=0.8635
+[DEV] mode=ensemble  lp=0.20 ln=0.35 a=3.0  acc=0.8635  (469.6s)
+  num=2000  acc=0.8655
+[DEV] mode=adaptive  lp=0.20 ln=0.35 a=3.0  acc=0.8655  (758.2s)
+  num=2000  acc=0.8630
+[DEV] mode=single    lp=0.20 ln=0.35 a=5.0  acc=0.8630  (469.6s)
+  num=2000  acc=0.8635
+[DEV] mode=ensemble  lp=0.20 ln=0.35 a=5.0  acc=0.8635  (469.9s)
+  num=2000  acc=0.8625
+[DEV] mode=adaptive  lp=0.20 ln=0.35 a=5.0  acc=0.8625  (758.3s)
+  num=2000  acc=0.8660
+[DEV] mode=single    lp=0.20 ln=0.35 a=7.0  acc=0.8660  (469.5s)
+  num=2000  acc=0.8635
+[DEV] mode=ensemble  lp=0.20 ln=0.35 a=7.0  acc=0.8635  (469.8s)
+  num=2000  acc=0.8685
+[DEV] mode=adaptive  lp=0.20 ln=0.35 a=7.0  acc=0.8685  (759.1s)
+  num=2000  acc=0.8640
+[DEV] mode=single    lp=0.20 ln=0.40 a=3.0  acc=0.8640  (469.7s)
+  num=2000  acc=0.8620
+[DEV] mode=ensemble  lp=0.20 ln=0.40 a=3.0  acc=0.8620  (469.8s)
+  num=2000  acc=0.8645
+[DEV] mode=adaptive  lp=0.20 ln=0.40 a=3.0  acc=0.8645  (758.5s)
+  num=2000  acc=0.8620
+[DEV] mode=single    lp=0.20 ln=0.40 a=5.0  acc=0.8620  (470.0s)
+  num=2000  acc=0.8635
+[DEV] mode=ensemble  lp=0.20 ln=0.40 a=5.0  acc=0.8635  (470.3s)
+  num=2000  acc=0.8630
+[DEV] mode=adaptive  lp=0.20 ln=0.40 a=5.0  acc=0.8630  (758.8s)
+  num=2000  acc=0.8665
+[DEV] mode=single    lp=0.20 ln=0.40 a=7.0  acc=0.8665  (470.3s)
+  num=2000  acc=0.8625
+[DEV] mode=ensemble  lp=0.20 ln=0.40 a=7.0  acc=0.8625  (469.7s)
+  num=2000  acc=0.8680
+[DEV] mode=adaptive  lp=0.20 ln=0.40 a=7.0  acc=0.8680  (758.5s)
+  num=2000  acc=0.8640
+[DEV] mode=single    lp=0.20 ln=0.50 a=3.0  acc=0.8640  (469.8s)
+  num=2000  acc=0.8620
+[DEV] mode=ensemble  lp=0.20 ln=0.50 a=3.0  acc=0.8620  (469.9s)
+  num=2000  acc=0.8660
+[DEV] mode=adaptive  lp=0.20 ln=0.50 a=3.0  acc=0.8660  (758.6s)
+  num=2000  acc=0.8620
+[DEV] mode=single    lp=0.20 ln=0.50 a=5.0  acc=0.8620  (470.7s)
+  num=2000  acc=0.8620
+[DEV] mode=ensemble  lp=0.20 ln=0.50 a=5.0  acc=0.8620  (470.2s)
+  num=2000  acc=0.8635
+[DEV] mode=adaptive  lp=0.20 ln=0.50 a=5.0  acc=0.8635  (758.7s)
+  num=2000  acc=0.8640
+[DEV] mode=single    lp=0.20 ln=0.50 a=7.0  acc=0.8640  (470.1s)
+  num=2000  acc=0.8630
+[DEV] mode=ensemble  lp=0.20 ln=0.50 a=7.0  acc=0.8630  (470.5s)
+  num=2000  acc=0.8680
+[DEV] mode=adaptive  lp=0.20 ln=0.50 a=7.0  acc=0.8680  (758.8s)
+  num=2000  acc=0.8655
+[DEV] mode=single    lp=0.30 ln=0.35 a=3.0  acc=0.8655  (470.1s)
+  num=2000  acc=0.8605
+[DEV] mode=ensemble  lp=0.30 ln=0.35 a=3.0  acc=0.8605  (470.2s)
+  num=2000  acc=0.8650
+[DEV] mode=adaptive  lp=0.30 ln=0.35 a=3.0  acc=0.8650  (758.4s)
+  num=2000  acc=0.8635
+[DEV] mode=single    lp=0.30 ln=0.35 a=5.0  acc=0.8635  (469.7s)
+  num=2000  acc=0.8615
+[DEV] mode=ensemble  lp=0.30 ln=0.35 a=5.0  acc=0.8615  (469.8s)
+  num=2000  acc=0.8600
+[DEV] mode=adaptive  lp=0.30 ln=0.35 a=5.0  acc=0.8600  (758.6s)
+  num=2000  acc=0.8675
+[DEV] mode=single    lp=0.30 ln=0.35 a=7.0  acc=0.8675  (479.3s)
+  num=2000  acc=0.8620
+[DEV] mode=ensemble  lp=0.30 ln=0.35 a=7.0  acc=0.8620  (470.9s)
+  num=2000  acc=0.8665
+[DEV] mode=adaptive  lp=0.30 ln=0.35 a=7.0  acc=0.8665  (814.7s)
+  num=2000  acc=0.8635
+[DEV] mode=single    lp=0.30 ln=0.40 a=3.0  acc=0.8635  (543.8s)
+  num=2000  acc=0.8625
+[DEV] mode=ensemble  lp=0.30 ln=0.40 a=3.0  acc=0.8625  (540.9s)
+  num=2000  acc=0.8650
+[DEV] mode=adaptive  lp=0.30 ln=0.40 a=3.0  acc=0.8650  (873.0s)
+
+-----------------
